@@ -1,0 +1,7 @@
+RUN_ID: 3
+Model name: prajjwal1/bert-small
+Dataset: Dataset: v0.3
+Learning rate: 1e-05
+Number of epochs: 50
+Number of models: 10
+Values: ['ACHIEVEMENT', 'BENEVOLENCE', 'CONFORMITY', 'HEDONISM', 'POWER', 'SECURITY', 'SELF-DIRECTION', 'STIMULATION', 'TRADITION', 'UNIVERSALISM']
