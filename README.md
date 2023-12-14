@@ -1,4 +1,8 @@
-# Project Readme
+# Group 11 Readme
+### JANSSON Hampus - HELLUM Jacob - CHAKOV Ryan LEQUEU Pierre-Antoine - NIELSEN Sigurd Natural Language Processing - SNU 2023
+
+
+
 
 ## Motivation
 The primary goal of this project is to develop a model capable of determining key human features and personality traits. Value-Persona classification is a broad field of study with numerous applications. Some motivating examples include enhancing system user experience in socially intelligent chatbots (e.g., ELIZA, PARRY, Persona-chat, chatGPT), healthcare communication, demographic classification, social media moderation, and applications in political campaigns, marketing, and advertising.
@@ -7,6 +11,16 @@ The primary goal of this project is to develop a model capable of determining ke
 ### ValueNet Dataset:
 - 21,000+ scenarios
 - Distributed among 10 values
+    - Benevolence
+    - Power
+    - Tradition
+    - Universalism
+    - Stimulation
+    - Self-Direction
+    - Security
+    - Hedonism
+    - Conformity
+    - Achievemen
 
 ## Proposal of Idea and Explanation
 The project is based on the 10 basic human values identified in the ValueNet dataset. The aim is to create a value classification for a sentence and determine the value profile of a set of sentences. Three methods are explored for this purpose:
@@ -48,6 +62,3 @@ Used both BOW Tokenization and TF-IDF Tokenization
 - Get softmax scores from both models and take the difference as a result
 - Example: `softmax(BENEVOLENCE) - softmax(NOT_BENEVOLENCE)`
 - Note: This approach encountered challenges and the model gave softmax of 1.0 to all entries. Further investigation and troubleshooting may be required.
-
-## Conclusion
-Summarize the key findings, insights, and conclusions drawn from the experiments. Discuss the implications of the results and potential areas for future research and improvement.
